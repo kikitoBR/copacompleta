@@ -708,12 +708,7 @@ export default function App() {
               <span>Contato suporte: kikitogamerBR@gmail.com</span>
             </div>
           </div>
-          
-          <div className="text-center mt-6">
-            <p className="text-[10px] text-emerald-300 max-w-xl mx-auto leading-relaxed">
-              <strong>Isenção de Responsabilidade:</strong> Este site é uma representação de Landing Page de alta conversão simulada produzida com foco em copywrititer sênior e marketing digital. Os logotipos do torneio e as imagens de atletas são ilustrativos de domínio público ou marcas comerciais de seus respectivos proprietários.
-            </p>
-          </div>
+
         </div>
       </footer>
 
