@@ -705,7 +705,7 @@ export default function App() {
             <div className="flex flex-wrap gap-4 text-[11px] justify-center text-emerald-300">
               <span>Termos de Uso</span>
               <span>Políticas de Privacidade</span>
-              <span>Contato suporte: contato@copa26digital.com</span>
+              <span>Contato suporte: kikitogamerBR@gmail.com</span>
             </div>
           </div>
           
