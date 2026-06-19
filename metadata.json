@@ -1,0 +1,6 @@
+{
+  "name": "Álbum Copa 2026 Completo",
+  "description": "Edição completa e digital do Álbum da Copa do Mundo de 2026 em alta resolução pronta para impressão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
