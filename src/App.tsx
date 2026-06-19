@@ -35,6 +35,7 @@ import {
 } from 'lucide-react';
 import { stickersData, testimonials, faqItems, Sticker } from './data';
 import { trackEvent } from './utils/tracking';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   // PageView tracking on mount
@@ -735,7 +736,8 @@ export default function App() {
         )}
       </AnimatePresence>
 
-
+      {/* Vercel Web Analytics */}
+      <Analytics />
 
     </div>
   );
