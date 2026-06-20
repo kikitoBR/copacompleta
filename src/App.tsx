@@ -423,7 +423,7 @@ export default function App() {
               <div className="relative w-44 aspect-[3/4] rounded-2xl overflow-hidden border-4 border-yellow-400 shadow-2xl shadow-yellow-500/20 rotate-2 hover:rotate-0 transition-transform duration-300">
                 <div className="absolute inset-0 holo-bg mix-blend-overlay opacity-80 pointer-events-none z-10" />
                 <img 
-                  src="/fig-personalizada-exemplo.png" 
+                  src="/figurinha-personalizada.png" 
                   alt="Exemplo Figurinha Personalizada" 
                   className="w-full h-full object-cover bg-emerald-950" 
                 />
@@ -435,15 +435,15 @@ export default function App() {
 
             {/* Content text */}
             <div className="w-full md:w-3/5 text-center md:text-left">
-              <span className="text-[10px] uppercase text-emerald-700 font-mono tracking-widest font-black block">Novidade Especial</span>
+              <span className="text-[10px] uppercase text-emerald-700 font-mono tracking-widest block font-black">Novidade Especial</span>
               <h3 className="font-display font-black text-2xl text-emerald-950 mt-1">
                 Quer ver seu filho no álbum oficial? ⭐️
               </h3>
               <p className="text-sm text-slate-750 mt-3 leading-relaxed">
-                Ao finalizar a compra do seu PDF, você terá a oportunidade única de adicionar uma **Figurinha Rara Personalizada com o rosto dele** por apenas **R$ 30,00**!
+                Ao finalizar a compra do seu PDF, você terá a oportunidade única de adicionar uma <strong>Figurinha Rara Personalizada com o rosto dele</strong> por apenas <strong>R$ 30,00</strong>!
               </p>
               
-              <ul className="mt-4 space-y-2 text-xs md:text-sm text-slate-600 font-semibold">
+              <ul className="mt-4 space-y-2 text-xs md:text-sm text-slate-650 font-semibold">
                 <li className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0" /> Nós removemos o fundo da sua foto profissionalmente
                 </li>
