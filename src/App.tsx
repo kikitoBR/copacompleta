@@ -409,7 +409,60 @@ export default function App() {
         </div>
       </section>
 
+      {/* SEÇÃO FIGURINHA PERSONALIZADA (ORDER BUMP PREVIEW) */}
+      <section id="custom-sticker-section" className="py-12 bg-gradient-to-b from-emerald-50 to-emerald-100/50 border-b border-emerald-100 relative z-10">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-white border-2 border-amber-400 rounded-3xl p-6 md:p-8 shadow-xl flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
+            {/* Ribbon Badge */}
+            <div className="absolute top-0 left-0 bg-amber-400 text-emerald-950 text-[10px] md:text-xs font-black uppercase px-4 py-1.5 rounded-br-2xl shadow-md">
+              Exclusivo no Checkout
+            </div>
+            
+            {/* Visual Preview */}
+            <div className="w-full md:w-2/5 flex justify-center shrink-0">
+              <div className="relative w-44 aspect-[3/4] rounded-2xl overflow-hidden border-4 border-yellow-400 shadow-2xl shadow-yellow-500/20 rotate-2 hover:rotate-0 transition-transform duration-300">
+                <div className="absolute inset-0 holo-bg mix-blend-overlay opacity-80 pointer-events-none z-10" />
+                <img 
+                  src="/fig-personalizada-exemplo.png" 
+                  alt="Exemplo Figurinha Personalizada" 
+                  className="w-full h-full object-cover bg-emerald-950" 
+                />
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-emerald-950/90 text-white text-[10px] font-bold px-2.5 py-0.5 rounded border border-yellow-400/30 font-mono tracking-wider whitespace-nowrap">
+                  SEU FILHO NO ÁLBUM
+                </div>
+              </div>
+            </div>
 
+            {/* Content text */}
+            <div className="w-full md:w-3/5 text-center md:text-left">
+              <span className="text-[10px] uppercase text-emerald-700 font-mono tracking-widest font-black block">Novidade Especial</span>
+              <h3 className="font-display font-black text-2xl text-emerald-950 mt-1">
+                Quer ver seu filho no álbum oficial? ⭐️
+              </h3>
+              <p className="text-sm text-slate-750 mt-3 leading-relaxed">
+                Ao finalizar a compra do seu PDF, você terá a oportunidade única de adicionar uma **Figurinha Rara Personalizada com o rosto dele** por apenas **R$ 30,00**!
+              </p>
+              
+              <ul className="mt-4 space-y-2 text-xs md:text-sm text-slate-600 font-semibold">
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0" /> Nós removemos o fundo da sua foto profissionalmente
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0" /> Criamos a arte com fundo brilhante dourado/Legends
+                </li>
+                <li className="flex items-center gap-2">
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0" /> Enviamos o PDF pronto em tamanho real para recortar e colar!
+                </li>
+              </ul>
+              
+              <p className="text-xs text-amber-600 font-bold mt-5 flex items-center justify-center md:justify-start gap-1.5 bg-yellow-400/10 py-1.5 px-3 rounded-lg border border-yellow-400/20 inline-flex">
+                <Sparkles className="w-4 h-4 fill-amber-500 text-amber-500 shrink-0" />
+                Selecione a opção "Figurinha Personalizada" na tela de pagamento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* O QUE ESTÁ INCLUSO (Scope grid) */}
       <section id="detalhes-secao" className="py-20 bg-emerald-50/40 border-b border-emerald-100 relative">
