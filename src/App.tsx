@@ -142,7 +142,7 @@ export default function App() {
       {/* Top Banner Urgency */}
       <div id="top-urgency-bar" className="bg-gradient-to-r from-emerald-600 via-emerald-500 to-amber-500 text-slate-950 text-xs md:text-sm font-bold text-center py-2.5 px-4 flex items-center justify-center gap-2 shadow-md relative z-30">
         <span className="animate-pulse bg-white text-emerald-950 text-[10px] uppercase font-extrabold px-1.5 py-0.5 rounded mr-1">Oportunidade</span>
-        <span className="text-white">Aproveite! O Álbum Completo + Todas as Figurinhas 2026 por apenas <strong className="underline text-yellow-300 font-black">R$ 9,90</strong>. Oferta expira em:</span>
+        <span className="text-white">Aproveite! O Álbum Completo + Todas as Figurinhas 2026 por apenas <strong className="underline text-yellow-300 font-black">R$ 19,90</strong>. Oferta expira em:</span>
         <span className="font-mono text-xs md:text-sm bg-emerald-950 text-yellow-400 py-0.5 px-2 rounded-md font-bold ml-1">{formatTime(timeLeft)}</span>
       </div>
 
@@ -176,7 +176,7 @@ export default function App() {
           href="https://pay.kirvano.com/d8c2dbfc-8478-4aca-97b7-f25fc25d0886"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackEvent('InitiateCheckout', { value: 9.90, currency: 'BRL' })}
+          onClick={() => trackEvent('InitiateCheckout', { value: 19.90, currency: 'BRL' })}
           className="bg-yellow-400 hover:bg-yellow-350 text-emerald-950 font-display font-black text-xs md:text-sm px-5 py-2.5 rounded-xl transition-all duration-300 shadow-md hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center cursor-pointer"
         >
           Baixar Álbum Agora
@@ -242,7 +242,7 @@ export default function App() {
                   href="https://pay.kirvano.com/d8c2dbfc-8478-4aca-97b7-f25fc25d0886"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={() => trackEvent('InitiateCheckout', { value: 9.90, currency: 'BRL' })}
+                  onClick={() => trackEvent('InitiateCheckout', { value: 19.90, currency: 'BRL' })}
                   className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-350 hover:to-amber-400 text-emerald-950 font-display font-black text-sm md:text-base py-4 px-6 rounded-xl transition-all duration-300 shadow-xl shadow-yellow-500/20 active:scale-98 tracking-wide uppercase hover:scale-102 flex items-center justify-center gap-2 text-center cursor-pointer text-decoration-none"
                 >
                   <Download className="w-5 h-5 -mt-0.5 text-emerald-950" />
@@ -254,7 +254,7 @@ export default function App() {
               <div id="hero-trust-row" className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-600 mt-2 font-semibold">
                 <span className="flex items-center gap-1 shadow-sm px-3 py-1.5 bg-white border border-emerald-100 rounded-xl">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-ping mr-1"></span>
-                  R$ 9,90 <span className="text-emerald-600 font-bold ml-1">Pagamento Único</span>
+                  R$ 19,90 <span className="text-emerald-600 font-bold ml-1">Pagamento Único</span>
                 </span>
                 <span className="flex items-center gap-1 shadow-sm px-3 py-1.5 bg-white border border-slate-200 rounded-xl">
                   <Check className="w-3.5 h-3.5 text-emerald-500 font-bold" /> Acesso Imediato por PDF
@@ -370,7 +370,7 @@ export default function App() {
                       🎉 Pacote gratuito aberto com sucesso!
                     </p>
                     <p className="text-[11px] md:text-xs text-emerald-200 mt-1 leading-relaxed">
-                      Você liberou o download das suas primeiras 5 figurinhas. Clique em <strong className="text-white">"Baixar PDF"</strong> em cada figurinha para obter o arquivo em alta resolução. Quer completar o álbum inteiro? Adquira o PDF completo com todas as figurinhas por apenas R$ 9,90!
+                      Você liberou o download das suas primeiras 5 figurinhas. Clique em <strong className="text-white">"Baixar PDF"</strong> em cada figurinha para obter o arquivo em alta resolução. Quer completar o álbum inteiro? Adquira o PDF completo com todas as figurinhas por apenas R$ 19,90!
                     </p>
                   </div>
                 )}
@@ -718,7 +718,7 @@ export default function App() {
             <div className="text-center md:text-left">
               <span className="text-xs uppercase text-yellow-300 font-mono tracking-widest block font-black">Adquira agora mesmo</span>
               <h4 className="font-display font-extrabold text-2xl text-white mt-1">
-                Complete Seu Álbum Por Menos de R$ 10!
+                Complete Seu Álbum Por Menos de R$ 20!
               </h4>
               <p className="text-xs md:text-sm text-emerald-200 mt-1 max-w-sm">
                 Preço promocional válido para as próximas horas. Compra segura com envio imediato e acesso 100% garantido.
@@ -728,7 +728,7 @@ export default function App() {
             <div className="flex flex-col items-center gap-3">
               <div className="text-center md:text-right">
                 <span className="text-xs text-emerald-250 block -mb-1">TUDO DIGITAL COMPLETO</span>
-                <span className="font-display font-black text-3xl text-yellow-300">R$ 9,90</span>
+                <span className="font-display font-black text-3xl text-yellow-300">R$ 19,90</span>
                 <span className="text-[10px] text-emerald-300 block font-mono">pagamento único</span>
               </div>
               <a
@@ -736,7 +736,7 @@ export default function App() {
                 href="https://pay.kirvano.com/d8c2dbfc-8478-4aca-97b7-f25fc25d0886"
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => trackEvent('InitiateCheckout', { value: 9.90, currency: 'BRL' })}
+                onClick={() => trackEvent('InitiateCheckout', { value: 19.90, currency: 'BRL' })}
                 className="bg-yellow-400 hover:bg-yellow-350 text-emerald-950 font-display font-black text-xs md:text-sm py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:scale-102 inline-flex items-center justify-center text-center cursor-pointer text-decoration-none"
               >
                 Comprar Álbum Completo
